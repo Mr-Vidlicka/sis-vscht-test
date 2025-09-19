@@ -2,7 +2,7 @@
 
 <img src="website-assets/icon.svg" width=80 align="right">
 
-This is a basic Android app, which loads [the website of SIS CUNI](https://is.cuni.cz/studium/) (using [WebView](https://developer.android.com/reference/android/webkit/WebView.html)) and injects custom styles and scripts to make the website more mobile- and user-friendly.
+This is a basic Android app, which loads [the website of SIS UCT](https://student.vscht.cz/) (using [WebView](https://developer.android.com/reference/android/webkit/WebView.html)) and injects custom styles and scripts to make the website more mobile- and user-friendly.
 
 This app does NOT collect usernames, passwords, personal information or any other data. [Privacy Policy](./PRIVACY.md)
 
