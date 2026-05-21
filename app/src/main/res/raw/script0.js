@@ -11,6 +11,7 @@
         blue2: "#82b5df",
         blue3: "#abcee9",
 		blue4: "#d3e6f4",
+		gray: "#161616",
     };
 
     const main = `
@@ -130,33 +131,54 @@
 		text-decoration: none !important;
 	}
 	#stev_role_obj::after {
-		content: "▼";
+		content: "⏏";
         font-size: 1rem;
         line-height: 1rem;
 	}
-	#stev_role_menu {
-		position: static;
+	#stev_role_menu, #stev_user_roles_fak > span {
+		position: static !important;
+		display: inline-block !important;
+		padding: 0 !important;
+		margin: 0 !important;
 	}
-	#stev_role_list {
+	#stev_role_list, #stev_role_fak_list {
 		left: 0;
 		top: auto !important;
 		right: auto !important;
 		width: 100%;
+		position: absolute;
+		z-index: 100;
 	}
-	#stev_role_list .tab2 {
+	#stev_role_list .tab2, #stev_role_fak_list .tab2 {
 		display: flex;
         width: 100%;
 		margin: 0 !important;
 	}
-	#stev_role_list .tab2 tbody {
+	#stev_role_list .tab2 tbody, #stev_role_fak_list .tab2 tbody {
 		overflow-x: auto;
 		overflow-y: hidden;
 		white-space: nowrap;
 	}
-	#stev_role_list .link2 {
+	#stev_role_list .link2, #stev_role_fak_list .link2 {
 		color: black !important;
 	}
-	#stev_user_roles_fak {display: none}
+	#stev_user_roles_fak {
+		display: inline-block;
+	}
+	#stev_role_fak_obj {
+		font-size: 0;
+		background: none !important;
+		padding: .25rem .25rem .25rem .5rem !important;
+	}
+	#stev_role_fak_obj:hover {
+		color: white !important;
+		text-decoration: none !important;
+	}
+	#stev_role_fak_obj::after {
+		content: "⏧";
+        font-size: 1rem;
+        line-height: 1rem;
+	}
 	#stev_icons {
 		top: .15rem !important;
 		height: 1rem;
