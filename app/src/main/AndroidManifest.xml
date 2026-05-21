@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar.Fullscreen">
         <activity
-            android:name="io.github.sykoram.sis.MainActivity"
+            android:name="cz.vscht.student.sis.MainActivity"
             android:exported="true"
             android:configChanges="orientation|screenSize">
             <intent-filter>

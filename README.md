@@ -19,17 +19,15 @@ This app does NOT collect usernames, passwords, personal information or any othe
 
 ## Download
 
-The app [was on Google Play in the past](https://web.archive.org/web/20250521154946/https://play.google.com/store/apps/details?id=io.github.sykoram.sis), but my developer account has been deleted because I didn't want to send my ID to Google.
+The app [was on Google Play in the past](https://web.archive.org/web/20250521154946/https://play.google.com/store/apps/details?id=sis), but my developer account has been deleted because I didn't want to send my ID to Google.
 
 At the time of removal (2025-05-21), the app had been installed on 1.7k devices and had rating of 4.8 stars (21 reviews, [6 comments](#feedback)).
 
 To download the app, use one of the options below:
 
-### Option 1: Obtainium (preferred way, automatic updates)
+## Option 1: Obtainium (preferred way, automatic updates)
 
 You need to have [Obtainium installed](https://wiki.obtainium.imranr.dev/). Then, click the following:
-
-<a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://app/%7B%22id%22%3A%22io.github.sykoram.sis%22%2C%22url%22%3A%22https%3A%2F%2Fgithub.com%2Fsykoram%2Fsis%22%2C%22author%22%3A%22sykoram%22%2C%22name%22%3A%22SIS%22%2C%22preferredApkIndex%22%3A0%2C%22additionalSettings%22%3A%22%7B%5C%22includePrereleases%5C%22%3Afalse%2C%5C%22fallbackToOlderReleases%5C%22%3Atrue%2C%5C%22filterReleaseTitlesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22filterReleaseNotesByRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22verifyLatestTag%5C%22%3Afalse%2C%5C%22sortMethodChoice%5C%22%3A%5C%22date%5C%22%2C%5C%22useLatestAssetDateAsReleaseDate%5C%22%3Afalse%2C%5C%22releaseTitleAsVersion%5C%22%3Afalse%2C%5C%22trackOnly%5C%22%3Afalse%2C%5C%22versionExtractionRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22matchGroupToUse%5C%22%3A%5C%22%5C%22%2C%5C%22versionDetection%5C%22%3Atrue%2C%5C%22releaseDateAsVersion%5C%22%3Afalse%2C%5C%22useVersionCodeAsOSVersion%5C%22%3Afalse%2C%5C%22apkFilterRegEx%5C%22%3A%5C%22%5C%22%2C%5C%22invertAPKFilter%5C%22%3Afalse%2C%5C%22autoApkFilterByArch%5C%22%3Atrue%2C%5C%22appName%5C%22%3A%5C%22%5C%22%2C%5C%22appAuthor%5C%22%3A%5C%22%5C%22%2C%5C%22shizukuPretendToBeGooglePlay%5C%22%3Afalse%2C%5C%22allowInsecure%5C%22%3Afalse%2C%5C%22exemptFromBackgroundUpdates%5C%22%3Afalse%2C%5C%22skipUpdateNotifications%5C%22%3Afalse%2C%5C%22about%5C%22%3A%5C%22%5C%22%2C%5C%22refreshBeforeDownload%5C%22%3Afalse%2C%5C%22dontSortReleasesList%5C%22%3Afalse%7D%22%2C%22overrideSource%22%3Anull%7D%0A%0A"><img src="website-assets/badge_obtainium.png" width="180"></a>
 
 ### Option 2: direct APK download (you must update manually)
 

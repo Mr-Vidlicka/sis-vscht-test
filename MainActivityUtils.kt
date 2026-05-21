@@ -1,4 +1,4 @@
-package io.github.sykoram.sis
+package cz.vscht.student.sis
 
 import android.content.res.AssetManager
 import android.net.Uri
