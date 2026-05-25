@@ -16,8 +16,8 @@ fun isUrlAllowed(url: Uri): Boolean {
         return false
     }
 
-    val allowedBeginnings = listOf("is.cuni.cz/studium", "idp.cuni.cz", "ldapuser.cuni.cz", "student.vscht.cz")
-    val disallowedBeginnings = listOf("is.cuni.cz/studium/v4", "student.vscht.cz/prijimacky")
+    val allowedBeginnings = listOf("student-test.vscht.cz", "student.vscht.cz")
+    val disallowedBeginnings = listOf("student.vscht.cz/prijimacky")
     val hostAndPath = url.host + url.path
     var allowed = false
     for (bgn in allowedBeginnings) {
@@ -93,7 +93,6 @@ val fromAssetsReplacements = mapOf(
     "stev_menu_home.gif" to "openmoji-black/E25E.png",
     "stev_menu_bookmarks.gif" to "openmoji-black/1F516.png",
     // homepage icons
-    "v4.gif" to "openmoji-color/0034-FE0F-20E3.png",
     "term_st2.gif" to "openmoji-color/1F4C5.png",
     "szz_st.gif" to "openmoji-color/1F393.png",
     "predm_st2.gif" to "openmoji-color/1F4DD.png",
@@ -112,13 +111,6 @@ val fromAssetsReplacements = mapOf(
     "deda_amu.gif" to "openmoji-color/1F30D.png",
     "ckis.gif" to "openmoji-color/1F4DA.png",
     "pez.gif" to "openmoji-color/E1CC.png",
-    "ukaz.gif" to "icons/ukaz.png",
-    "moodle.gif" to "icons/moodle.png",
-    "iforum.gif" to "icons/iforum.png",
-    "sis_uk_point.gif" to "icons/uk_point.png",
-    "sis_centrum_carolina.gif" to "icons/centrum_carolina.png",
-    "sis_phd_platform.gif" to "icons/phd_platform.png",
-    "sis_klub_alumni.gif" to "icons/klub_alumni.png",
     "bookmarks.gif" to "openmoji-color/1F516.png",
     "ciselniky.gif" to "openmoji-color/E1C1.png",
     "ekczv.gif" to "openmoji-color/1F4D8.png",
@@ -141,7 +133,7 @@ val fromAssetsReplacements = mapOf(
     "deda_zahost.gif" to "openmoji-color/1F30D.png",
     "esc.gif" to "openmoji-color/1F697.png",
     "wstip_uc.gif" to "openmoji-color/1F4B6.png",
-    "magistr.gif" to "openmoji-color/magistr.png",
+    "magistr.gif" to "icons/magistr.png",
     "akreditace.gif" to "openmoji-color/1F397.png",
     // other - in filters, tables - don't forget to add css rule to smaller it!
     "div_tip.gif" to "openmoji-color/2139.png",
