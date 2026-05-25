@@ -206,7 +206,7 @@
 		display: none;
 	}
 	#stev_lang_en, #stev_lang_cz {
-		filter: invert(0) !important;
+		filter: invert(1) !important;
 	}
 
 	#loading .head1 {
