@@ -2,11 +2,7 @@
 <resources>
     <string name="app_name">SIS</string>
     <string name="header">Vysoká škola \nchemicko-technologická \nv Praze</string>
-    <string name="about_text">Toto je upravená aplikace od Michala Sýkory (https://github.com/sykoram/sis).
-        \n
-        \nJá jsem aplikaci adaptoval na VŠCHT.
-        \n
-        \nAhoj, vítej v neoficiálním klientu pro SIS na VŠCHT Praha!
+    <string name="about_text">Ahoj, vítej v neoficiálním klientu pro SIS na VŠCHT Praha!
         \n
         \nTato aplikace funguje tak, že načte webovou stránku SISu a vloží do ní styly a funkce tak, aby ji bylo příjemné používat i na mobilních zařízeních a vypadala celkově moderněji.
         \n

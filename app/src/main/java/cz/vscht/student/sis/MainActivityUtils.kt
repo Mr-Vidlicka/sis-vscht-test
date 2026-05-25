@@ -66,8 +66,8 @@ fun getPageIdentifiers(url: String): List<String> {
     val doParam = uri.getQueryParameter("do")
     val doeParam = uri.getQueryParameter("doe")
 
-    if (host == "is.cuni.cz" && path!!.startsWith("/studium")) {
-        val ids = path.replaceFirst("^/studium(/eng)?/?".toRegex(), "")
+    if (host == "student.vscht.cz" && path!!.startsWith("/")) {
+        val ids = path.replaceFirst("(/eng)?/?".toRegex(), "")
                 .replaceFirst("(/index)?\\.php$".toRegex(), "")
                 .split("/")
                 .toList()
