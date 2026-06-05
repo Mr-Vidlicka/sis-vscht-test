@@ -452,6 +452,7 @@
 	}
 	.head1, .head1 td, .head10, .head10 td {
 		background-color: ${c.blue} !important;
+
 	}
 	.head2, .head2 td {
 		background-color: ${c.blue2} !important;
@@ -477,7 +478,10 @@
     }
 	td img[src$="order_down.gif"], td img[src$="order_up.gif"],
 	td img[src$="order_down_a.gif"], td img[src$="order_up_a.gif"] {
-		display: none;
+		display: inline;
+		width: 0.75rem;
+        filter: invert(0)
+        margin: 0.25rem;
 	}
 	.tab1 *[id^="pamela"] {
 		white-space: normal;
